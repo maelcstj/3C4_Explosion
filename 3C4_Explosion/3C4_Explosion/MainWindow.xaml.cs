@@ -22,7 +22,7 @@ namespace _3C4_Explosion
     {
         public MainWindow()
         {
-            InitializeComponent();
+            while(true) InitializeComponent();
         }
     }
 }

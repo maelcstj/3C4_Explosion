@@ -31,5 +31,6 @@
         </WrapPanel>
         <Button Width="300" Margin="5" Background="LightBlue" Click="Button_AddClick">Add</Button>
         <Button Width="300" Margin="5" Background="LightCoral" Click="Button_UpdateClick">Update</Button>
+
     </StackPanel>
 </Window>
