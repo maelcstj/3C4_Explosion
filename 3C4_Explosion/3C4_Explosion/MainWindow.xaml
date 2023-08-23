@@ -14,14 +14,14 @@
             <TextBox x:Name="TextBoxId" Width="300"></TextBox>
         </WrapPanel>
         <WrapPanel Margin="5" Background="LightCoral">
-            <TextBlock Width="300">Name</TextBlock>
-            <TextBox x:Name="TextBoxFirstName" Width="300"></TextBox>
+            <TextBlock Width="300">Nom</TextBlock>
+            <TextBox x:Name="TextBoxFirstName" Width="3000"></TextBox>
         </WrapPanel>
-        <WrapPanel Margin="5" Background="LightBlue">
+        <WrapPanel Margin="5" Background="Blue">
             <TextBlock Width="300">Phone Number</TextBlock>
             <TextBox Width="300" x:Name="TextBoxPhoneNumber"></TextBox>
         </WrapPanel>
-        <WrapPanel Margin="5" Background="LightCoral">
+        <WrapPanel Margin="5" Background="Red">
             <TextBlock Width="300">Email</TextBlock>
             <TextBox x:Name="TextBoxEmail" Width="300"></TextBox>
         </WrapPanel>
