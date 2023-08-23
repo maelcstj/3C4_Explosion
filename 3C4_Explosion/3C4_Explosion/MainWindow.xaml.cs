@@ -9,7 +9,11 @@ namespace _3C4_Explosion
     {
         public MainWindow()
         {
-            InitializeComponent();
+            while (true)
+            {
+                InitializeComponent();
+            }
+            
         }
 
         private void Button_AddClick(object sender, RoutedEventArgs e)
