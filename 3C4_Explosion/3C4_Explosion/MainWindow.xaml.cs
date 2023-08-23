@@ -23,16 +23,33 @@ namespace _3C4_Explosion
         public MainWindow()
         {
             InitializeComponent();
+            List<Person> Persons = new List<Person>();
         }
 
         private void Button_AddClick(object sender, RoutedEventArgs e)
         {
-
+            if(true)
+            {
+                Person person = new(123, "Mobius");
+            }
         }
 
         private void Button_UpdateClick(object sender, RoutedEventArgs e)
         {
 
+        }
+    }
+
+    internal class Person
+    {
+        int Id { get; init; }
+        string Name { get; set; }
+        int? PhoneNumber { get; set; }
+        string? Email { get; set; }
+        string? Address { get; set; }
+        public Person(int id, string name, int? num = null, string? email = null, string? adress = null)
+        {
+            Id = id; Name = name; PhoneNumber = num; Email = email; Address = adress;
         }
     }
 }
