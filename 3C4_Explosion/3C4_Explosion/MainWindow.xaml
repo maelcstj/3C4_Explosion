@@ -17,6 +17,10 @@
             <TextBlock Width="300">Name</TextBlock>
             <TextBox x:Name="TextBoxFirstName" Width="300"></TextBox>
         </WrapPanel>
+        <WrapPanel Margin="5" Background="LightCoral">
+            <TextBlock Width="300">Name</TextBlock>
+            <TextBox x:Name="TextBoxFirstName" Width="300"></TextBox>
+        </WrapPanel>
         <WrapPanel Margin="5" Background="LightBlue">
             <TextBlock Width="300">Phone Number</TextBlock>
             <TextBox Width="300" x:Name="TextBoxPhoneNumber"></TextBox>
